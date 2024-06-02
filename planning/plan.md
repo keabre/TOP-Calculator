@@ -38,3 +38,24 @@ Make sure that your calculator doesn't evaluate more than a pair of numbers at o
 Make sure numbers with very large decimals are restricted in size to fit the display
 Generate an error for the case where the user tries to divide by 0, so it doesn't stop the calculator from working
 
+## The Plan
+
+### Questions to ask myself
+
+1. If the program has a user interface, what will it look like and how will it's interactivity function?
+
+2. What inputs will your program have and how will they come about? 
+
+3. What will be the desired outputs of the program?
+
+4. What are the steps necessary between my inputs and returning the desired outputs?
+
+### Answers
+
+**1. User interface and functionality**
+
+**2. Inputs and where will they come from**
+
+**3. Desired outputs of the program**
+
+**4. Steps that link inputs to outputs**
