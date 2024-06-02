@@ -21,3 +21,20 @@
     - Display a snarky error message if the user tries to divide by 0… and don’t let it crash your calculator!
 
 ## My rewording of the project for adhanced understanding
+
+Start by creating functions for add, subtract, multiply and divide.
+
+We define a operation that we calculate by 2 operands and an operator, each stored in their own variables
+
+Create a function called 'operate' taking these 3 variables as parameters, which calls a operation function on them
+
+Using only HTML, create a calculator that has every digit, every operation that we made a function for, a clear button, an equals button and a display.
+
+Create functions that put numbers on the screen of the display when you click buttons on the calculator. The value that is displayed should have its own variable
+
+Make variables for the first and second number you add into the calculator, and using the one of the operations that user chooses, run operate() when they click '=', and update the calculator display with the result
+
+Make sure that your calculator doesn't evaluate more than a pair of numbers at one time
+Make sure numbers with very large decimals are restricted in size to fit the display
+Generate an error for the case where the user tries to divide by 0, so it doesn't stop the calculator from working
+
