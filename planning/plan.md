@@ -54,8 +54,26 @@ Generate an error for the case where the user tries to divide by 0, so it doesn'
 
 **1. User interface and functionality**
 
+This program will have a user interface
+
+- It will be a very basic styled calculator, with the only CSS being to arrage the items into place to look like a real calculator. All elements will look like standard HTML
+
+- The calculator on the screen will show a display screen, and buttons for each of the numbers, operations, clear and equals
+
 **2. Inputs and where will they come from**
+
+- The inputs are all from the user clicking on the buttons
 
 **3. Desired outputs of the program**
 
+- The desired output of the program will be to display the result of the calculation for the operator and 2 operands the user entered before they clicked the equals button
+
 **4. Steps that link inputs to outputs**
+
+- There will be event listeners on every button that link to a different behaviour:
+    - When the user clicks a digit as the first input, the program will store it in a variable as the first operand and display it to the screen
+    - When the user clicks a digit as the third input (after the operator), the program will store it in a variable as the second operand and display it to the screen after the operator
+    - When the user clicks an operator, after the first input, this will be stored in a variable to track what function to run on the operands
+    - When a user clicks on the 'clear' button, the process will be completely restarted and all values stored will be removed to a default state
+    - When the user clicks on the '=' button, the program will run the function 'operate()' and display the result from it in the display screen on the page
+    - When clicking a operator straight after an operation has completed, the result of the previous operation is used as the first operand, so therefore, this result is stored in the variable for the first operand, (the value for the first operand is only filled by the user if it is the very first iteration of the calculator)
