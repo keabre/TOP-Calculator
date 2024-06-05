@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digit,
+.operator, 
+#clear, 
+#equals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid black;
+    cursor: pointerq;
+}
+
+#calculator-container {
+    display: flex;
+    width: 600px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#calc-display {
+    width: 500px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+
